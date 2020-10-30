@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabsize": 2,
+    "material-icon-theme.folders.associations": {
+        "migrations": "tools",
+        "infra": "app",
+        "schemas": "class",
+        "logos": "images",
+        "js": "javascript"
+    },
+}
