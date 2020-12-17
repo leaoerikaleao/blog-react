@@ -3,7 +3,14 @@ import 'firebase/database'
 import 'firebase/auth'
 
 let firebaseConfig = {
-
+    apiKey: "AIzaSyBKLFJpHtTHWknMObzfADjTflyHycDXtUM",
+    authDomain: "fir-bd-c0833.firebaseapp.com",
+    databaseURL: "https://fir-bd-c0833.firebaseio.com",
+    projectId: "fir-bd-c0833",
+    storageBucket: "fir-bd-c0833.appspot.com",
+    messagingSenderId: "394529463872",
+    appId: "1:394529463872:web:8b75518ffd1c17496989a5",
+    measurementId: "G-DRCTCR551M"
 }
 
 class Firebase {

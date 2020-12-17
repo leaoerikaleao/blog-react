@@ -9,7 +9,7 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    firebase.app.ref('posts').once('value', (snapshot) => {
+    firebase.app.ref('posts').on('value', (snapshot) => {
       let state = this.state;
       state.posts = [];
 
@@ -50,7 +50,6 @@ class Home extends Component {
       </section>
     );
   }
-
 }
 
 export default Home;
